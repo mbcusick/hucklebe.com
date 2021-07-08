@@ -20,8 +20,8 @@ title: HuckleBe
 
 description: > # this means to ignore newlines until "baseurl:"
   HuckleBe is a strategic transformational change and reimagination consultancy fresh out of Amsterdam.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/huncklebe.com" # the subpath of your site, e.g. /blog
+url: "https://pr3ssh.github.io/hucklebe.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:
 
