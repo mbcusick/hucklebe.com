@@ -3613,7 +3613,6 @@ body {
   text-align: center;
 }
   .section-header h2, .section-header h3 {
-    text-transform: uppercase;
     display: inline-block;
     /*letter-spacing: 2px;*/
     font-weight: normal;
