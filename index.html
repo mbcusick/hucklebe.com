@@ -105,14 +105,14 @@ testimonials:
       position: 'Managing Partner, Changeist'
 
 clients:
-  - /assets/images/clients/nesta.jpeg
-  - /assets/images/clients/fsi.jpeg
-  - /assets/images/clients/ndc.png
-  - /assets/images/clients/pbl.jpeg
-  - /assets/images/clients/wb.jpeg
-  - /assets/images/clients/una.jpeg
-  - /assets/images/clients/unep.png
-  - /assets/images/clients/iucn.png
+  - /assets/images/clients/nesta.jpg
+  - /assets/images/clients/fsi.jpg
+  - /assets/images/clients/ndc.jpg
+  - /assets/images/clients/pbl.jpg
+  - /assets/images/clients/wb.jpg
+  - /assets/images/clients/una.jpg
+  - /assets/images/clients/unep.jpg
+  - /assets/images/clients/iucn.jpg
 ---
 
 <div class='full no-padding parallax home-video-wrapper'>
@@ -309,33 +309,6 @@ clients:
       {% endfor %}
     </div>
   </div>
-</div>
-
-
-<a id='blog'></a>
-<div class='full grey'>
-  <div class='row'>
-    <div class='large-8 columns large-centered'>
-      {% include section-title.html small_title="latest posts" title="Wrap ideas." %}
-    </div>
-  </div>
-</div>
-<div class="full grey no-padding no-overflow">
-  {% for post in site.posts limit:3 %}
-    <div class='large-4 columns'>
-      <div class='mod modBlogPost simple'>
-        <div class='content'>
-          <p class='date'>{{ post.date | date: "%B %d, %Y" }}</p>
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <div class='spacing'></div>
-          <p>
-            <a class='button boxed yellow tiny' href='{{ post.url | relative_url }}'>Read more</a>
-          </p>
-        </div>
-      </div>
-      <div class="four spacing"></div>
-    </div>
-  {% endfor %}
 </div>
 
 
