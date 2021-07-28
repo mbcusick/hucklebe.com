@@ -169,13 +169,13 @@ jQuery(document).foundation();
       submitHandler: function(form) {
         $.ajax({
           type: 'POST',
-          url: "https://formspree.io/" + $('input[name="recipient"]', form)[0].value,
+          url: "https://formspree.io/f/" + $('input[name="formspreeCode"]', form)[0].value,
           data: $(form).serialize(),
           dataType: "json",
           success: function(data) {
-            if(data.success) {                          
+            if(data.ok) {
               $(form).trigger('reset');
-              $('#thanks').show().removeClass('hide').fadeOut(5000);
+              $('#thanks').show().removeClass('hide').fadeOut(15000);
             }
           }
         });
